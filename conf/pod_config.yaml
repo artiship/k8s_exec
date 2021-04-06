@@ -1,0 +1,11 @@
+cluster:
+    context: auto
+container:
+    image: IMAGE_1
+    resource:
+        request:
+            cpu: 1
+            memory: "4G"
+        limit:
+            cpu: 2
+            memory: "8G"
